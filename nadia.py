@@ -12,7 +12,7 @@ page = st.sidebar.radio("Go to", ["Home", "Projects", "Skills", "Testimonials", 
 if page == "Home":
     st.title("🧑‍🎓 Student Profile")
     # Display the default image (without allowing an upload)
-    st.image("isaac.jpg", width=150, caption="Default image")
+    st.image("nadia.jpg", width=150, caption="Default image")
 
     # Disable file upload to prevent changing the image
     st.warning("🔒 Profile picture is set by default and cannot be changed.")
